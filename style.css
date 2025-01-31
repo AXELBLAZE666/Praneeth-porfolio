@@ -121,7 +121,7 @@ button {
   background-size: 8px 2px;
 }
 
-a:hover {
+a:hover,button:hover {
   color: var(--accent);
 }
 
