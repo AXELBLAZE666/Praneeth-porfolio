@@ -229,11 +229,12 @@ svg {
 
 .hero__image {
   position: absolute;
-  top: 0;
+  top: 2;
   left: 50%;
   translate: -50%;
-  width: 174px;
+  width: 674px;
   height: auto;
+  mix-blend-mode: lighten;
 }
 
 .hero__rings {
@@ -304,12 +305,13 @@ h1 > span {
   .hero__image {
     position: relative;
     width: 42vw;
-    max-width: 445px;
+    max-width: 845px;
     /* width: 322px; */
     height: auto;
     left: auto;
-    right: 0;
+    right: -40%;
     translate: 0;
+    padding-top: 5%;
   }
 
   .hero__rings {
@@ -366,11 +368,14 @@ h1 > span {
   }
 
   .hero__content picture {
-    margin-left: -80px;
+    margin-left: -560px;
+    
   }
 
   .hero__image {
     margin-block-start: -199px;
+    min-width: 945px;
+    
   }
 
   .hero__rings {
