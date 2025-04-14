@@ -19,6 +19,6 @@ form.addEventListener("submit", e => {
     })
     .catch(error => {
       console.error("Error!", error);
-      alert("⚠️ Something went wrong. Check the console for details.");
+       alert("⚠️ Something went wrong. Check the console for details.");
     });
 });
